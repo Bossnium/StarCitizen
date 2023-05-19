@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Star Citizen Automation</title>
+</head>
+<body>
+  <h1>Star Citizen Automation</h1>
+
+  <h2>Prerequisites</h2>
+  <ul>
+    <li>Python (version 3.6 or above) - <a href="https://www.python.org/downloads/">Python Downloads</a></li>
+  </ul>
+
+  <h2>Dependencies</h2>
+  <p>The following dependencies are required for running the script:</p>
+  <ul>
+    <li>pywin32: <code>pip install pywin32</code></li>
+    <li>pywinauto: <code>pip install pywinauto</code></li>
+    <li>keyboard: <code>pip install keyboard</code></li>
+  </ul>
+
+  <h2>Installation</h2>
+  <ol>
+    <li>Install Python from the official Python website: <a href="https://www.python.org/downloads/">Python Downloads</a></li>
+    <li>Install the required dependencies using pip. Open a command prompt or terminal and run the following commands:
+      <pre>
+        <code>pip install pywin32</code>
+        <code>pip install pywinauto</code>
+        <code>pip install keyboard</code>
+      </pre>
+    </li>
+  </ol>
+
+  <h2>Usage</h2>
+  <ol>
+    <li>Open a command prompt or terminal.</li>
+    <li>Navigate to the directory where the script is located.</li>
+    <li>Run the script using the following command:
+      <pre><code>python star_citizen_automation.py</code></pre>
+    </li>
+    <li>The script will start running and periodically check the Star Citizen window. It will perform certain actions based on the game's status and your manual key combinations.</li>
+    <li>Press LCtrl + RAlt to trigger the manual action of sending /showlocation and extracting the coordinates.</li>
+    <li>The script will log the actions and their statuses in the console and also write them to a log file (log.txt).</li>
+  </ol>
+
+  <h2>Contributing</h2>
+  <p>Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or submit a pull request.</p>
+</body>
+</html>
